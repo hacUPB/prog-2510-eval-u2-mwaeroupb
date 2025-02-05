@@ -4,7 +4,7 @@
         Id:000549348
 
  <div style="text-align: center;">
-  <img src="Imagenes/brain-10813_256.gif" alt="imagengif" width="80%" />
+  <img src="Imagenes/0d33798d5211649f44a218bf974fc253.gif" alt="imagengif" width="80%" />
 </div>
  
 
