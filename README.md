@@ -3,7 +3,10 @@
 ### Maria Jose Medina Alean 
         Id:000549348
 
- ![Imagen1](Imagenes/brain-10813_256.gif)
+ <div style="text-align: center;">
+  <img src="Imagenes/brain-10813_256.gif" alt="imagengif" width="80%" />
+</div>
+ 
 
 
 
