@@ -3,10 +3,11 @@
 ### Maria Jose Medina Alean 
         Id:000549348
 
- ![Imagen1](../prog-2510-eval-u2-mwaeroupb/Imagenes/brain-10813_256.gifimagen/)
-
- # Introducción
+ ![Imagen1](Imagenes/brain-10813_256.gif)
 
 
----
+
+ # Introduccion
+
+
 
