@@ -101,5 +101,5 @@ Los datos se representan en binario (0s y 1s), usando códigos como ASCII para t
 
 
 
-
+![mapa](../Actividad%201%20El%20computador%20digital%20moderno/mapa1/Grafico%20mapa%20mental%20científico%20ilustrativo%20azul.png)
 
