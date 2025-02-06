@@ -78,8 +78,6 @@ Son herramientas usadas para crear otros programas, como los editores de código
 - Se carga el sistema operativo.
 - Se inician los servicios necesarios.
 
-![compu](../Imagenes/brain-10813_256.gif)
-
 ### ¿Qué pasa cuando ingresas un dato y ves el resultado?
 1. El dato es recibido por el teclado y procesado por la CPU.
 2. El resultado se almacena en la memoria RAM y se envía a la GPU.
