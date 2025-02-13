@@ -2,4 +2,6 @@
 
 ## Diagrama de flujo
 
-![Diagrama de flujo](../Imagenes/mapa.jpeg)
+ <p align="center">
+  <img src="diagrama.png" alt="Diagrama de flujo" width="300">
+</p>
