@@ -1,6 +1,7 @@
 ## Actividad 1
 
 ![imagen1](../Imagenes/hardware.gif)
+
 Imagen de: https://images.app.goo.gl/BuLs2LTaHvS9wtpFA
 
 
