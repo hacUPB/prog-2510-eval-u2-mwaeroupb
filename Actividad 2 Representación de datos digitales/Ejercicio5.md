@@ -12,25 +12,16 @@ Para almacenar la información cada 10 segundos durante 24 horas, primero analiz
 | Valor lógico | `bool` (`boolean`) | 1 byte |
 | Texto (10 caracteres) | `char[10]` o `String` | 10 bytes |
 
-### Cálculo por Registro  
-Cada conjunto de datos ocupa:  
 
-\[4 + 4 + 1 + 10 = 19 \text{ bytes}\]
+- **Tamaño por registro:** `19 bytes`  
 
-### Registros por Día  
-Los datos se almacenan **cada 10 segundos durante 24 horas**.  
+- **Registros en 24 horas:** `8640 registros`
 
-\[\frac{60 \text{ seg} \times 60 \text{ min} \times 24 \text{ h}}{10 \text{ seg}} = 8640 \text{ registros}\]
+- **Espacio total en bytes:** `164,160 bytes`
 
-### Espacio Total Requerido  
+- **Espacio total en KB:** `160.31 KB`  
 
-\[8640 \text{ registros} \times 19 \text{ bytes/reg} = 164,160 \text{ bytes}\]
-
-Convertimos a **Kilobytes (KB)** y **Megabytes (MB)**:  
-
-\[\frac{164,160}{1024} \approx 160.31 \text{ KB}\]
-
-\[\frac{160.31}{1024} \approx 0.16 \text{ MB}\]
+- **Espacio total en MB:** `0.16 MB`  
 
 ### Resultado Final  
 

@@ -1,6 +1,7 @@
 # Actividad 2
 
 ![imagen2](../Imagenes/images.jpg)
+
 imagen de: https://images.app.goo.gl/gzrqL5UgRrAwGcB79
 
 ## 1. Conversión de números binarios a decimales:
