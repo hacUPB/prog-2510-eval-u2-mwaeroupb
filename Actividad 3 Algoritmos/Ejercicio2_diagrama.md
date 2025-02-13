@@ -3,5 +3,5 @@
 ## Diagrama de flujo
 
  <p align="center">
-  <img src="diagrama.png" alt="Diagrama de flujo" width="300">
+  <img src="../Imagenes/mapa.jpeg" alt="Diagrama de flujo" width="300">
 </p>
