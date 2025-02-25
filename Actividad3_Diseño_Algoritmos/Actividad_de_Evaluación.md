@@ -71,8 +71,6 @@ Indica si las siguientes afirmaciones son **ciertas** o **falsas** respecto al p
 
 ## Parte 5: Estructuras de Control  
 
-# Estructuras de Control  
-
 Las **estructuras de control** sirven para definir el flujo de ejecución de un algoritmo, permitiendo tomar decisiones, repetir procesos o ejecutar instrucciones de manera secuencial según ciertas condiciones. Son fundamentales en la programación para estructurar soluciones eficientes y lógicas.  
 
 ## Ejemplos  
