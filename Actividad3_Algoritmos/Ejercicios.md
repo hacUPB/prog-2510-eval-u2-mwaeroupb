@@ -27,6 +27,7 @@ Fin
 Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo. 
 
 **Pseudocódigo:**
+
 ```
 Inicio
   1. Leer Precio_Compra
@@ -40,6 +41,7 @@ Inicio
   5. Imprimir "Descuento aplicado: ", Descuento
 Fin
 ```
+
 ## Ejercicio 3 
  ![Descripción de la imagen](../Imagenes/images%20(1).png)
 
@@ -50,6 +52,7 @@ El director de una escuela está organizando un viaje de estudios, y requiere de
 - Si son **menos de 30 alumnos**, el costo de la renta del autobús es de **$4000.00**, sin importar el número de alumnos.  
 
 **Pseudocódigo:**
+
 ```
 Inicio
   1. Leer Cantidad_Alumnos
@@ -70,5 +73,6 @@ Inicio
   4. Imprimir "Costo por alumno: ", Costo_Alumno
 Fin
 ```
+
 ![Descripción de la imagen](../Imagenes/Diagramaalumnos.drawio.png)
 
