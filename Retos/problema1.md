@@ -1,4 +1,9 @@
-# Problema #1 
+# Problema 1 
+
+![problema1](../Imagenes/image.png)
+
+Imagen1. Diagrama en el plano cartesiano.
+
 Se requiere obtener la distancia entre dos puntos en el plano cartesiano,
 tal y como se muestra en la figura 1. Realice un diagrama de flujo y pseudocódigo
 que representen el algoritmo para obtener la distancia entre
@@ -15,3 +20,5 @@ Inicio
     Escribir d
 Fin
 ```
+## Diagrama de flujo 
+![problema1](../Imagenes/problema1.drawio.png)
