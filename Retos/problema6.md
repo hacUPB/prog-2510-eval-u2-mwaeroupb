@@ -7,3 +7,22 @@ Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cu
 
 ## 📝 Pseudocódigo
 ```
+Leer n
+Mayor ← 0
+Menor ← 0
+Cero ← 0
+
+Desde i = 1 hasta n
+    Leer num
+    Si num > 0 Entonces
+        Mayor ← Mayor + 1
+    Si no Si num < 0 Entonces
+        Menor ← Menor + 1
+    Si no
+        Cero ← Cero + 1
+    Fin Si
+Fin Desde
+
+Imprimir "Mayores a cero:", Mayor
+Imprimir "Menores a cero:", Menor
+Imprimir "Ceros:", Cero

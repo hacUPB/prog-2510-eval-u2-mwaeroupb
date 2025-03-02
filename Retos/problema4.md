@@ -6,32 +6,38 @@
     
 ## 📝 Pseudocódigo
 ```
-Inicio
-    Escribir "DIA"
-    Leer DIA
-    Escribir "MES"
-    Leer MES
-    Escribir "AÑO"
-    Leer AÑO
+ Inicio
+    // Entrada: fecha de nacimiento
+    Escribir "Ingrese el día de nacimiento:"
+    Leer dia_nac
+    Escribir "Ingrese el mes de nacimiento:"
+    Leer mes_nac
+    Escribir "Ingrese el año de nacimiento:"
+    Leer año_nac
 
-    Escribir "dia hoy"
-    Leer dia hoy
-    Escribir "mes actual"
-    Leer mes actual
-    Escribir "año actual"
-    Leer año actual
+    // Entrada: fecha actual
+    Escribir "Ingrese el día actual:"
+    Leer dia_actual
+    Escribir "Ingrese el mes actual:"
+    Leer mes_actual
+    Escribir "Ingrese el año actual:"
+    Leer año_actual
 
-    edad ← año_act - año_nac
+    // Calcular la edad inicial
+    edad= año_actual - año_nac
 
-    Si (mes_act < mes_nac) O (mes_act = mes_nac Y dia_act < dia_nac) Entonces
+    // Verificar si ya cumplió años este año
+    Si (mes_actual < mes_nac) o (mes_actual = mes_nac y dia_actual < dia_nac) Entonces
         edad ← edad - 1
-        Escribir "Aún no has cumplido años este año."
-    Sino Si (mes_act = mes_nac Y dia_act = dia_nac) Entonces
-        Escribir "Feliz Cumpleaños!"
+        Escribir "Aún no ha cumplido años este año."
+    Sino Si (mes_actual = mes_nac y dia_actual = dia_nac) Entonces
+        Escribir "Feliz Cumpleaños"
     Sino
-        Escribir "Ya has cumplido años este año."
+        Escribir "Ya cumplió años este año."
     FinSi
 
-    Escribir "Tu edad actual es: ", edad
+    // Mostrar la edad calculada
+    Escribir "La edad de la persona es: ", edad
 Fin
+
 

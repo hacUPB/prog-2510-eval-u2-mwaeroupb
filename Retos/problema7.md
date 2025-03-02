@@ -7,3 +7,21 @@ Se requiere un algoritmo para determinar cuánto ahorrará en pesos una persona 
 
 ## 📝 Pseudocódigo
 ```
+Inicio
+    // Inicializar variables
+    ahorro_dia ← 3   // Comienza ahorrando 3 centavos
+    ahorro_total ← 0 // Acumulador del ahorro anual
+
+    // Recorrer los 365 días del año
+    Desde dia ← 1 hasta 365 Hacer
+        Imprimir "Día ", dia, ": ahorró ", ahorro_dia, " centavos"
+        ahorro_total ← ahorro_total + ahorro_dia
+        ahorro_dia ← ahorro_dia * 3 // Multiplica por 3 cada día
+    Fin Desde
+
+    // Convertir a pesos (1 peso = 100 centavos)
+    ahorro_pesos ← ahorro_total / 100
+
+    // Mostrar el ahorro total en pesos
+    Imprimir "El ahorro total en el año es: ", ahorro_pesos, " pesos"
+Fin

@@ -6,3 +6,23 @@ Realice el algoritmo para determinar cuánto pagará una persona que adquiere N 
 
 ## 📝 Pseudocódigo
 ```
+Inicio
+    Leer N
+    Total ← 0
+
+    Desde i = 1 hasta N Hacer
+        Leer Precio
+        Si Precio ≥ 200 Entonces
+            Descuento ← Precio * 0.15
+        Si no Si Precio > 100 Entonces
+            Descuento ← Precio * 0.12
+        Si no
+            Descuento ← Precio * 0.10
+        Fin Si
+        PrecioFinal ← Precio - Descuento
+        Total ← Total + PrecioFinal
+        Imprimir "Artículo ", i, ": Precio =", Precio, ", Descuento =", Descuento, ", Precio final =", PrecioFinal
+    Fin Desde
+
+    Imprimir "Total a pagar:", Total
+Fin

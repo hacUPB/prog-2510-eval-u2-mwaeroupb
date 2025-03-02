@@ -8,3 +8,16 @@ Imagen [E](https://media.istockphoto.com/id/649112040/es/foto/funci%C3%B3n-expon
     
 ## 📝 Pseudocódigo
 ```
+Inicio
+    Leer x
+    Leer n  // Número de términos de la serie
+    e_x ← 1  // Primer término de la serie
+    termino ← 1  // Variable para calcular cada término
+
+    Desde i = 1 hasta n Hacer
+        termino ← termino * (x / i)  // Se multiplica por x y se divide por i (equivale a x^i / i!)
+        e_x ← e_x + termino  // Se suma el término a la aproximación
+    Fin Desde
+
+    Imprimir "e^", x, " ≈ ", e_x
+Fin
