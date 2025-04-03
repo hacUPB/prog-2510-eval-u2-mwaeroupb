@@ -6,23 +6,39 @@ Realice el algoritmo para determinar cuánto pagará una persona que adquiere N 
 
 ## 📝 Pseudocódigo
 ```
-Inicio
-    Leer N
-    Total ← 0
 
-    Desde i = 1 hasta N Hacer
-        Leer Precio
-        Si Precio ≥ 200 Entonces
-            Descuento ← Precio * 0.15
-        Si no Si Precio > 100 Entonces
-            Descuento ← Precio * 0.12
-        Si no
-            Descuento ← Precio * 0.10
-        Fin Si
-        PrecioFinal ← Precio - Descuento
-        Total ← Total + PrecioFinal
-        Imprimir "Artículo ", i, ": Precio =", Precio, ", Descuento =", Descuento, ", Precio final =", PrecioFinal
-    Fin Desde
+Inicio 
+Escribir "Ingrese el nombre de los articulos que compro: "
+Leer nombres 
+Escribir "Ingresa del valor de cada uno de los articulos en el mismo orden que los nombres: "
+Leer valor 
+descuentos= []
+precios = []                                                    precio como una lista vacia 
+precio total = 0
+Desde i=0 hasta  n                                              len(valor)  tamaño empieza el ciclo
+    precio=0
+    descuento=0                                                 cambia con cada iteracion
+    Si valor[i] >= 200                                          valor en la posicion i
+        precio= (valor[i]- valor[i]*0.15)
+        descuento = "15%"
+    Sino valor[i]<200 y valor [i]>100
+        precio= (valor[i]- valor[i]*0.12)
+        descuento= "12%"
+    Else 
+        precio= (valor[i]-valor[i]*0.10)
+        descuento= "10%"
+    Fin condicion 
+    precio total = precio total + precio
+    precio sin descuento = precio sin descuento + valor[i] 
+    precios.append(precio)                                         precio se añade a precios 
+    descuentos.append(descuento)                                   se añade descuento a la lista 
+Fin desde
+imprimir "El articulo: "nombre + "tiene un valor de: " valor + "con un descuento de: " descuento
+imprimir "el precio total a pagar es: " precio total + "el precio total sin descuento de cada articulo es:  " precio sin descuento
+                
+no cambia el orden de las listas 
 
-    Imprimir "Total a pagar:", Total
-Fin
+
+
+
+ 

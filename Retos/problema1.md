@@ -22,3 +22,6 @@ Fin
 ```
 ## Diagrama de flujo 
 ![problema1](../Imagenes/problema1.drawio.png)
+
+##  Tabla de Clasificación de Variables
+

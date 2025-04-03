@@ -28,7 +28,7 @@
 
     // Verificar si ya cumplió años este año
     Si (mes_actual < mes_nac) o (mes_actual = mes_nac y dia_actual < dia_nac) Entonces
-        edad ← edad - 1
+        edad = edad - 1
         Escribir "Aún no ha cumplido años este año."
     Sino Si (mes_actual = mes_nac y dia_actual = dia_nac) Entonces
         Escribir "Feliz Cumpleaños"

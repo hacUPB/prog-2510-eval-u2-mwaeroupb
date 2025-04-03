@@ -7,22 +7,24 @@ Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cu
 
 ## 📝 Pseudocódigo
 ```
-Leer n
-Mayor ← 0
-Menor ← 0
-Cero ← 0
-
-Desde i = 1 hasta n
-    Leer num
-    Si num > 0 Entonces
-        Mayor ← Mayor + 1
-    Si no Si num < 0 Entonces
-        Menor ← Menor + 1
-    Si no
-        Cero ← Cero + 1
-    Fin Si
+Inicio 
+Escribir "Ingrese las cantidades: "
+Leer Cantidades
+Saber tamaño de "Cantidades"            (len(Cantidades))
+mayor = 0
+menor = 0
+igual = 0
+Desde i=0 hasta tamaño de cantidades 
+    Si Cantidad > 0                                             (cantidad = valor posicion i en cantidades)
+        mayor = mayor + 1             La variable se vuelve a guardar con el valor de mayor + 1
+    Sino Cantidad < 0 
+        menor = menor +1
+    Sino Cantidad == 0
+        igual = igual + 1
+    Finsi
 Fin Desde
+Imprimir "La cantidad de nuemeros mayores a 0 son:" mayor
+Imprimir "La cantidad de nuemeros menores a 0 son:" menor
+Imprimir "La cantidad de nuemeros iguales a 0 son:" igual
 
-Imprimir "Mayores a cero:", Mayor
-Imprimir "Menores a cero:", Menor
-Imprimir "Ceros:", Cero
+       
